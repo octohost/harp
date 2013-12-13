@@ -1,7 +1,7 @@
 harp
 ====
 
-Basic [Harp](https://www.harp.io/) container for octohost.
+Basic [Harp](http://harpjs.com) container for octohost.
 
 Clone this repo and use Harp to develop your website.
 

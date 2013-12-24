@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A Harp App on Docker",
   "dependencies": {
-    "harp": "0.10.x"
+    "harp": "0.11.x"
   },
   "engines": {
     "node": "0.10.x",

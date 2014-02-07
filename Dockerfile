@@ -1,8 +1,10 @@
-FROM octohost/nodejs
+FROM octohost/harp-nginx
 
-ADD . /srv/www
-RUN cd /srv/www; npm install
+WORKDIR /srv/www
 
-EXPOSE 5000
+ADD . /srv/www/
+RUN harp compile
 
-CMD cd /srv/www; /usr/bin/node server.js
+EXPOSE 80
+
+CMD nginx
